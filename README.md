@@ -6,11 +6,11 @@
 - тип сортировки (возрастающая, убывающая или никакая).
 
 ## Порядок вызова программы
-./apriori \<rules filename\> \<support\> \<sort type\> \<max rules on screen\>
-\<rules filename\>: path to file with rules
-	\<support\>: double, (0..100)%
-	\<sort type\>: 'u' - upscending, 'd' - downscending, 'n' - no sort
-	\<max rules on screen\>: int, -1 - all
+./apriori \<rules filename\> \<support\> \<sort type\> \<max rules on screen\>\
+\<rules filename\>: path to file with rules\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<support\>: double, (0..100)%\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<sort type\>: 'u' - upscending, 'd' - downscending, 'n' - no sort\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<max rules on screen\>: int, -1 - all\
 
 ### Примеры: 
 #### Обработать файл association_rules.data и вывести на экран все правила с поддержкой не меньше 0.2 в порядке возрастания
