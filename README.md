@@ -5,12 +5,15 @@
 - показатель минимальной поддержки, (0..100)%;
 - тип сортировки (возрастающая, убывающая или никакая).
 
+## Порядок сборки
+make
+
 ## Порядок вызова программы
 ./apriori \<rules filename\> \<support\> \<sort type\> \<max rules on screen\>\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<rules filename\>: path to file with rules\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<support\>: double, (0..100)%\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<sort type\>: 'u' - upscending, 'd' - downscending, 'n' - no sort\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<max rules on screen\>: int, -1 - all\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\<max rules on screen\>: int, -1 - all
 
 ### Примеры: 
 #### Обработать файл association_rules.data и вывести на экран все правила с поддержкой не меньше 0.2 в порядке возрастания
